@@ -6,7 +6,7 @@ var startupThings =
 	'cross-platform',
 	'easily extensible',
 	'API-driven',
-	'kickstarter for',
+	'Kickstarter for',
 	'gofundme for',
 	'a centralized platform for',
 	'a peer-to-peer information platform for',
@@ -15,7 +15,7 @@ var startupThings =
 	'curated',
 	'real-time',
 	'an SDK for',
-	'a python framework for',
+	'a Python framework for',
 	'programmer-friendly',
 	'totally open, web-powered',
 	'fully functional',
@@ -24,8 +24,9 @@ var startupThings =
 	'powerful, web-driven',
 	'an instantly available tool for',
 	'totally free, app-driven',
-	'SaaS approach to'
-	'b2b',
+	'SaaS approach to',
+	'B2B',
+	'B2C',
 	'user-generated community for',
 	'completely personal',
 	'absolutely private',
@@ -34,7 +35,7 @@ var startupThings =
 	'hand-curated approach to',
 	'a remix tool for',
 	'totally free',
-	'kickstarter for',
+	'Kickstarter for',
 	'an app-powered redefinition of',
 	'email-powered',
 	'contemporary',
@@ -42,23 +43,23 @@ var startupThings =
 	'an inbox for',
 	'a decentralized labor market for',
 	'a way to hire anyone to help with',
-	'uber for',
-	'facebook for',
-	'xiaomi for',
+	'Uber for',
+	'Facebook for',
+	'Xiaomi for',
 	'a social network for',
-	'twitter for',
-	'palantir for',
-	'snapchat for',
-	'instacart for',
-	'instagram for',
-	'spacex for',
-	'pinterest for',
-	'dropbox for',
-	'wework for',
-	'spotify for',
-	'airbnb for',
-	'square for',
-	'twitter-DM-powered tools for managing',
+	'Twitter for',
+	'Palantir for',
+	'Snapchat for',
+	'Instacart for',
+	'Instagram for',
+	'SpaceX for',
+	'Pinterest for',
+	'Dropbox for',
+	'WeWork for',
+	'Spotify for',
+	'Airbnb for',
+	'Square for',
+	'Twitter-DM-powered tools for managing',
 	'an incredibly agile approach to',
 	'chat-based access to',
 ];
@@ -146,11 +147,11 @@ function randArr(items) {
 }
 
 function makeThing() {
-    return '<p>it\'s basically <span class="startup">'
+    return '<p>&ldquo;It\'s basically <span class="startup">'
 	+ randArr(startupThings)
 	+ '</span> <span class="politics">'
 	+ randArr(politicsThings)
-	+ '</span></p>';
+	+ '.</span>&rdquo;</p>';
 }
 
 $(document).ready(

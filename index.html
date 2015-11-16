@@ -3,16 +3,44 @@
     <title>Good and Evil</title>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="./evil.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Corben:400,700' rel='stylesheet' type='text/css'>
     <style type="text/css">
-      body {text-align:center;font-family:'Impact',sans-serif;font-weight:normal;}
-      #things {font-size:30px;}
-      .politics {color:darkred;text-transform:Uppercase;}
-      .startup {color:darkblue;text-transform:Uppercase;}
+      body {text-align:center;font-family: 'Corben', cursive;}
+      h1 {font-size:300%;margin:1em 0 0 0;}
+      #things {font-size:30pt;}
+      .startup {color:#CC4477;}
+      .politics {color:#4477CC;}
+      a {
+      color:white;
+      text-decoration:none;
+      font-size:140%;
+      background:#CC4477;
+      padding:10px;
+      border-radius: 10px 10px 10px 10px;
+      -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+      -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+      box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);      
+      }
+      a:hover {
+      background:#BB4477;
+      }
+      a:click {
+      -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+      -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+      box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);      
+      
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      }
+      }
     </style>
   </head>
 
 </head>
 <body>
-  <h1>Government 2.0</h1>
+  <h1>Government <span class="startup">2</span>.<span class="politics">0</span></h1>
   <div id="things"></div>
+
+  <p><a href="index.html">Pitch me again!</a></p>
 </body>
