@@ -57,7 +57,9 @@ var startupThings =
 	'spotify for',
 	'airbnb for',
 	'square for',
-	'chat-based',
+	'twitter-DM-powered tools for managing',
+	'an incredibly agile approach to',
+	'chat-based access to',
 ];
 
 var postThings = [];
