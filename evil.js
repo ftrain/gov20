@@ -139,19 +139,6 @@ function randArr(items) {
     return items[rand(items.length)]
 }
 
-/* TODO */
-function makeCompoundThing(arr, ct) {
-    var len = items.length;
-    var seq = new Array();
-    var i = 0;
-    var rval = rand(len);
-    while (!seq[rval] && ct > 0) {
-	seq[rval] = true;
-	rval = rand(len);
-	ct--;
-    }
-}
-
 function makeThing() {
     return '<p>it\'s basically <span class="startup">'
 	+ randArr(startupThings)
